@@ -796,7 +796,7 @@ body {
 .categories {
   width: 1160px;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 71px;
 }
 
 .categories-list {
@@ -850,17 +850,14 @@ body {
   height: 289px;
   background-color: #F0F0F0;
   margin: auto;
-  margin-top: 172px;
+  margin-top: 173px;
 }
 
 .delivery-container {
   width: 1160px;
   margin: auto;
   display: flex;
-  background-image: url("../images/delivery/delivery.svg");
-  background-repeat: no-repeat;
-  background-position: 961px 78px;
-  transform: translateY(-101px);
+  transform: translateY(-102px);
 }
 
 .delivery-list {
@@ -942,19 +939,39 @@ body {
 }
 
 .delivery-desc {
+  width: 800px;
   margin-left: 116px;
-  width: 453px;
+  background-image: url("../images/delivery/delivery.svg");
+  background-repeat: no-repeat;
+  background-position: 558px 77px;
 }
 
 .delivery-desc-title {
   font-family: "raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
-  margin-top: 74px;
+  margin-top: 73px;
   margin-bottom: 34px;
 }
 
 .delivery-desc-text {
+  width: 453px;
+}
+
+.guarantee-desc {
+  background-image: url("../images/delivery/guarantee.svg");
+}
+
+.guarantee-desc-text {
+  width: 480px;
+}
+
+.credit-desc {
+  background-image: url("../images/delivery/credit.svg");
+}
+
+.credit-desc-text {
+  width: 480px;
 }
 
 .hidden {
