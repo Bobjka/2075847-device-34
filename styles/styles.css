@@ -974,6 +974,46 @@ body {
   width: 480px;
 }
 
+.delivery-wrapper-button {
+  width: 1160px;
+  min-height: 100px;
+  margin-left: 100px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.button-image {
+  width: 125px;
+  min-height: 100px;
+  background-color: #FFE17F;
+  background-image: url("../images/delivery/delivery-car.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button-text {
+  font-family: "raleway", sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  align-self: center;
+
+}
+
+.button-icon {
+  display: inline-block;
+  width: 125px;
+  height: 100px;
+  background-image: url("../images/delivery/delivery-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .hidden {
   display: none;
 }
