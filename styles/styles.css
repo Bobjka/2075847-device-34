@@ -507,13 +507,24 @@ body {
 }
 
 .subcatalog {
+  position: absolute;
+  min-height: 131px;
+  width: 1160px;
+  background-color: #FFE17F;
+  z-index: 1;
   display: grid;
-  grid-template-columns: 222px 211px 211px;
+  grid-template-columns: 282px 211px 211px;
+  margin: auto;
+  transform: translateX(-60px);
 }
 
 .subcatalog-list {
   padding: 0;
   margin: 0;
+}
+
+.list-one {
+  margin-left: 60px;
 }
 
 .list-two {
@@ -655,11 +666,12 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 180px;
-  line-height: 30px;
-  top: -99px;
-  right: 48px;
+  line-height: 180px;
+  top: 7px;
+  right: 49px;
   z-index: -1;
   color:#ffffff;
+  margin: 0;
 }
 
 .slider-content-button {
